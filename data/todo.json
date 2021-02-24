@@ -1,0 +1,60 @@
+{
+    "taskgroups":
+    [
+        
+        {
+            "label": "Today",
+            "tasks": [
+                {
+                    "name": "Study for math quiz"	
+                },
+                {
+                    "name": "Feed the cat"	
+                }
+            ]
+        },
+        {
+            "label": "Tomorrow",
+            "tasks": [
+                {
+                    "name": "Do the dishes"	
+                },
+                {
+                    "name": "Mow the lawn"	
+                },
+                {
+                    "name": "Write book report draft"	
+                }
+            ]
+        },
+        {
+            "label": "Tomorrow",
+            "tasks": [
+                {
+                    "name": "Do the dishes"	
+                },
+                {
+                    "name": "Mow the lawn"	
+                },
+                {
+                    "name": "Write book report draft"	
+                }
+            ]
+        },
+        {
+            "label": "Tomorrow",
+            "tasks": [
+                {
+                    "name": "Do the dishes"	
+                },
+                {
+                    "name": "Mow the lawn"	
+                },
+                {
+                    "name": "Write book report draft"	
+                }
+            ]
+        }
+    ]
+}
+

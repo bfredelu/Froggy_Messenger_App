@@ -1,59 +1,29 @@
 <html>
 <head>
-	<title>Froggy the Friend</title>
-	<link href="/css/froggy.css" rel="stylesheet">
+	<title>Log In</title>
+	<link href="/css/login.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<div class='container'>
-		<div class='header'>
-			<div class='header-icon'>
-				<img src='https://lh3.googleusercontent.com/proxy/q7TS7ShGv5SzT8cX9SKvTztrAoubMGf99Gj01T--o9CgKEZgRq2K4HRcMDzNUAvVFicTnaXN9XULcVSQt2vnEclEkJkkNuvdKMXmzUtETKmv48xZQFI' width=48px>
-			</div>
-			<div class='header-name'>
-				<h1>Froggy the Friend</h1>
-			</div>
+
+		<img src='/images/logo.svg'>
+
+		<div class='loginForm'>
+			<label for="uname">Username</label>
+			<input type="text" placeholder="Enter your username">
+
+			<label for="psw">Password</label>
+			<input type="password" placeholder="Enter your password">
+			
+			<a class='btn' id='login' href='./todo'>Log In</a>
 		</div>
-		<div class='froggy-container'>
-			<div class='msg-icon'>
-				<img src='https://lh3.googleusercontent.com/proxy/q7TS7ShGv5SzT8cX9SKvTztrAoubMGf99Gj01T--o9CgKEZgRq2K4HRcMDzNUAvVFicTnaXN9XULcVSQt2vnEclEkJkkNuvdKMXmzUtETKmv48xZQFI' width=24px>
-			</div>
-			<div class='msg'>
-				<p>Test message</p>
-			</div>
+
+		<div class='register'>
+			<p>No account? <a href="#">Sign Up</a></p>
 		</div>
-		<div class='froggy-container'>
-			<div class='msg-icon'>
-				<img src='https://lh3.googleusercontent.com/proxy/q7TS7ShGv5SzT8cX9SKvTztrAoubMGf99Gj01T--o9CgKEZgRq2K4HRcMDzNUAvVFicTnaXN9XULcVSQt2vnEclEkJkkNuvdKMXmzUtETKmv48xZQFI' width=24px>
-			</div>
-			<div class='msg'>
-				<p>Hi, I hope you had a good day! What would you like to do right now?</p>
-			</div>
-		</div>
-		<div class='helper-text'>
-			<p>Pick a reply</p>
-		</div>
-		<div class='reply-group'>
-			<a href='#'>
-				<div class='reply'>
-					<p>💡 Create a task</p>
-				</div>
-			</a>
-			<a href='#'>
-				<div class='reply'>
-					<p>👀 Look at my tasks</p>
-				</div>
-			</a>
-						<a href='#'>
-				<div class='reply'>
-					<p>✅ Check off a task</p>
-				</div>
-			</a>
-			<a href='#'>
-				<div class='reply'>
-					<p>👋 That's all!</p>
-				</div>
-			</a>			
-		</div>
+
+			
+		
 	</div>
 </body>
