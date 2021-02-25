@@ -55,3 +55,32 @@ body {
 .navbar a.active {
     color: #018CB8
 }
+
+.selectList {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.choice {
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.arrow {
+    float: right;
+    padding: 5px;
+    border: solid darkgrey;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.right {
+    transform: rotate(-45deg);
+}
+
+.clearfix {
+    overflow: auto;
+}
