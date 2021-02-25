@@ -12,6 +12,9 @@ var index = require('./routes/index');
 var todo = require('./routes/todo');
 var chat = require('./routes/chat');
 var profile = require('./routes/profile');
+var changeMyName = require('./routes/changeMyName');
+var changeUsername = require('./routes/changeUsername');
+var changePassword = require('./routes/changePassword');
 // Example route
 // var user = require('./routes/user');
 
@@ -41,6 +44,9 @@ app.get('/', index.view);
 app.get('/todo', todo.view);
 app.get('/chat', chat.view);
 app.get('/profile', profile.view);
+app.get('/changeMyName', changeMyName.view);
+app.get('/changeUsername', changeUsername.view);
+app.get('/changePassword', changePassword.view);
 // Example route
 // app.get('/users', user.list);
 
