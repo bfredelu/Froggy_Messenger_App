@@ -12,6 +12,7 @@ var index = require('./routes/index');
 var todo = require('./routes/todo');
 var chat = require('./routes/chat');
 var profile = require('./routes/profile');
+var notifications = require('./routes/notifications');
 // Example route
 // var user = require('./routes/user');
 
@@ -41,6 +42,7 @@ app.get('/', index.view);
 app.get('/todo', todo.view);
 app.get('/chat', chat.view);
 app.get('/profile', profile.view);
+app.get('/notifications', notifications.view);
 // Example route
 // app.get('/users', user.list);
 
