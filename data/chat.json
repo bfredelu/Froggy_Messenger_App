@@ -1,0 +1,31 @@
+{
+    "messagegroups": [
+        {
+            "froggy": [
+                {
+                    "content": "Hi there!"
+                },
+                {
+                    "content": "What can I help you with?"
+                }
+            ],
+            "reply": [
+                {
+                    "content": "What's a to-do list?",
+                    "link": "/whatstodo"
+                },
+                {
+                    "content": "I finished a task. Now what?",
+                    "link": "/finished"
+                },
+                {
+                    "content": "Please motivate me!",
+                    "link": "/motivate"
+                }
+            ],
+            "you": [
+
+            ]
+        }
+    ]
+}

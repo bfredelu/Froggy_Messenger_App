@@ -11,9 +11,91 @@
         <a href="./profile"><img src='/images/profile_inactive.svg'>Profile</a>
     </div>
 
-
     <div class='header'>
+		<img src='/images/icon.svg'>
         <p>Chat</p>
     </div>
+
+	{{!-- <div class='container'>
+		{{#each messagegroups}}
+		<div class='chat-container'>
+			{{#each message}}
+			<div class='chat-bubble {{type}}'>
+				<p>{{content}}</p>
+			</div>
+			{{/each}}
+		</div>
+		{{/each}}
+	</div> --}}
+	
+
+	{{!-- <form id='addTaskForm' role='form' method='get' action='/addtask'>
+		<input type='text' id='task' name='task'>
+		<input type='submit' id='submitBtn' value='Add task'></input>
+		
+	</form> --}}
+
+	<div class='container'>
+		{{#each messagegroups}}
+		<div class='messagegroup'>
+			<div class='froggygroup'>
+				{{#each froggy}}			
+				<div class='message froggy'>
+					<p>{{content}}</p>
+				</div>	
+				{{/each}}	
+			</div>
+			<div class='replygroup'>
+				{{#each reply}}	
+				<form id='createTask' role = 'form' method='get' action={{link}}>
+					<input type='submit' class='reply' value='{{content}}'></input>
+				</form>
+				{{/each}}	
+			</div>
+			<div class='yougroup'>
+				{{#each you}}	
+				<div class='message you'>
+					<p>{{content}}</p>
+				</div>
+				{{/each}}
+			</div>
+		</div>
+		{{/each}}
+	</div>
+
+
+
+
+
+	{{!-- <div class='container'>
+		<div class='messagegroup'>
+			<div class='chatbubble froggy'>
+				sdf
+			</div>
+			<div class='chatbubble froggy'>
+				sdf
+			</div>
+		</div>
+
+		<div class='messagegroup'>
+			<div class='chatbubble froggy'>
+				sdf
+			</div>
+			<div class='chatbubble froggy'>
+				sdf
+			</div>
+		</div>
+
+	</div> --}}
+
+{{!-- 
+hi {{user}}
+
+
+ --}}
+
+	<script src="/js/jquery-1.11.0.js"></script>
+	<script src="/js/chat.js"></script>
+	<script src="/js/bootstrap.js"></script>
 
 </body>

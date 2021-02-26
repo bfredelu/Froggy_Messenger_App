@@ -10,33 +10,39 @@
         <a href="" class="active"><img src='/images/todo_active.svg'>To Do</a>
         <a href="./profile"><img src='/images/profile_inactive.svg'>Profile</a>
     </div>
-
+{{!-- 
     <div class='header'>
         <p>To Do</p>
     </div>
-	<div class='container'>
+	<div class='container'> --}}
+{{!-- 
+        <form role='form' method='get' action='/addtask'>
+            <input type='text' id='newtask' name='newtask'>
+            <input type='submit' value='add task'></input>
+        </form> --}}
 
-
+	<form id='addTaskForm' role='form' method='get' action='/createtask'>
+		<input type='text' id='task' name='task'>
+		<input type='submit' id='submitBtn' value='Add task'></input>
+	</form>
 
         <div class='todoLists'>
-            {{#each taskgroups}}
             <div class='tasks'>
-                <p class='label'>{{label}}</p>
                 <div class='items'>
-                     <ul>
+                    <ul>
                         {{#each tasks}}
                         <li>{{name}}</li>
                         {{/each}}
                     </ul>
                 </div>
             </div>
-            {{/each}}
         </div>
-
 	</div>
 
-    	<script src="/js/jquery-1.11.0.js"></script>
+
+    </body>
+
+        	<script src="/js/jquery-1.11.0.js"></script>
 		<script src="/js/todo.js"></script>
 		<script src="/js/bootstrap.js"></script>
-    </body>
 </html>
