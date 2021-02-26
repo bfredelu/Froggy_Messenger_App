@@ -12,13 +12,13 @@ var index = require('./routes/index');
 var todo = require('./routes/todo');
 var chat = require('./routes/chat');
 var profile = require('./routes/profile');
-<<<<<<< HEAD
+
 var notifications = require('./routes/notifications');
-=======
+
 var changeMyName = require('./routes/changeMyName');
 var changeUsername = require('./routes/changeUsername');
 var changePassword = require('./routes/changePassword');
->>>>>>> f475b96b82f3e4a0f3e387cabfd641099892e481
+
 // Example route
 // var user = require('./routes/user');
 
@@ -48,13 +48,13 @@ app.get('/', index.view);
 app.get('/todo', todo.view);
 app.get('/chat', chat.view);
 app.get('/profile', profile.view);
-<<<<<<< HEAD
+
 app.get('/notifications', notifications.view);
-=======
+
 app.get('/changeMyName', changeMyName.view);
 app.get('/changeUsername', changeUsername.view);
 app.get('/changePassword', changePassword.view);
->>>>>>> f475b96b82f3e4a0f3e387cabfd641099892e481
+
 // Example route
 // app.get('/users', user.list);
 
