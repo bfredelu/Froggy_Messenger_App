@@ -16,6 +16,8 @@ var profile = require('./routes/profile');
 var changeMyName = require('./routes/changeMyName');
 var createtask = require('./routes/createtask');
 var whatstodo = require('./routes/whatstodo');
+var finished = require('./routes/finished');
+var motivate = require('./routes/motivate');
 var notifications = require('./routes/notifications');
 
 var changeUsername = require('./routes/changeUsername');
@@ -53,6 +55,8 @@ app.get('/profile', profile.view);
 
 app.get('/createtask', createtask.createTask);
 app.get('/whatstodo', whatstodo.answer);
+app.get('/motivate', motivate.answer);
+app.get('/finished', finished.answer);
 app.get('/notifications', notifications.view);
 
 app.get('/changeMyName', changeMyName.view)
