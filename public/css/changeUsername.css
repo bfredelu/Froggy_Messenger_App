@@ -4,12 +4,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-color: #FEF4E9;
-}
-
 a {
     text-decoration: none; /* no underline */
+}
+
+body {
+    background-color: #FEF4E9;
 }
 
 .header {
@@ -17,6 +17,7 @@ a {
     position:fixed;
     width: 100%;
     z-index: 1;
+    height: 48px;
     text-align: center;
     font-size: 20px;
     line-height: 20px;
@@ -59,36 +60,11 @@ a {
     color: #018CB8
 }
 
-.selectList {
-    margin-top: 70px;
-    margin-bottom: 50px;
-}
-
-.choice {
-    margin-left: 30px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-size: 18px;
-}
-
-.arrow {
-    float: right;
-    padding: 5px;
-    border: solid darkgrey;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    margin-right: 30px;
-}
-
-.right {
-    transform: rotate(-45deg);
-}
-
 .clearfix {
     overflow: auto;
 }
 
-.btn {
+.nameForm .btn {
     display: block;
     background-color: #018CB8;
     color: white;
@@ -98,6 +74,23 @@ a {
     box-sizing: border-box;
     border-radius: 24px;
     margin-top:16px;
+}
+
+.nameForm input {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.nameForm label {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 8px;
 }
 
 .options {
