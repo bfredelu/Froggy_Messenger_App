@@ -12,11 +12,13 @@ var index = require('./routes/index');
 var todo = require('./routes/todo');
 var chat = require('./routes/chat');
 var profile = require('./routes/profile');
-
+var changeMyName = require('./routes/changeMyName');
 var createtask = require('./routes/createtask');
 var whatstodo = require('./routes/whatstodo');
 var notifications = require('./routes/notifications');
 
+var changeUsername = require('./routes/changeUsername');
+var changePassword = require('./routes/changePassword');
 // Example route
 // var user = require('./routes/user');
 
@@ -51,6 +53,9 @@ app.get('/createtask', createtask.createTask);
 app.get('/whatstodo', whatstodo.answer);
 app.get('/notifications', notifications.view);
 
+app.get('/changeMyName', changeMyName.view)
+app.get('/changeUsername', changeUsername.view)
+app.get('/changePassword', changePassword.view)
 // Example route
 // app.get('/users', user.list);
 
