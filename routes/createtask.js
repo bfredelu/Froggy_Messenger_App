@@ -7,7 +7,7 @@ exports.createTask = function(request, response) {
     var newTask = {
         "name": name
     }
-    data.tasks.push(newTask)
+    data.tasks.push(newTask);
 
     response.render("todo", data);
 
