@@ -37,6 +37,14 @@ body {
     margin-top:36px;
 }
 
+.loginForm .fb-btn {
+    display: block;
+    height: 40px;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .loginForm input {
     width: 100%;
     padding: 12px 16px;
